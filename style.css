@@ -1,0 +1,93 @@
+body, p{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin-left: auto;
+    margin-top:  2rem;
+}
+a{
+    color: #020000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 25px;
+    background-blend-mode: color;
+}
+main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+main img{
+    height: 250px;
+    margin-top: 10%;
+}
+.buttons{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border:none;
+}
+.buttons button{
+    border: none;
+    padding: 1rem;
+    box-shadow: 2px 2px 15px 0;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;;
+}
+footer{
+background-color: transparent;
+}
+.footer_top{
+padding: 1rem;
+border-top: 3rem;
+}
+.footer_buttom{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CCCCCF;
+}
+.left a{
+    margin-right: 1rem;
+
+}
+.right a{
+    margin-right: 1rem;
+}
+html{
+    background: url(../blueIce.jpg);
+    background-size: cover;
+}
+.container { display: block;
+    width: 100%;
+    position: relative;
+    height: 36px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 15px 0;
+}
+.free-typing { z-index: 1;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    border: none;
+    text-indent: 5px;
+    line-height: 36px;
+    font-size: 18px;
+}
