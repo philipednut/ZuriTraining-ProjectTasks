@@ -1,0 +1,32 @@
+body {
+    font-family: Georgia;
+    margin: 1em;
+    margin-top: 3mm;
+    line-height: 1.1;
+}
+div {
+    text-align: center;
+}
+p, nav, ul{
+    text-align: left;
+    margin: auto;
+}
+h3 {
+    border-bottom: paleturquoise;
+    text-align: left;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+}
+h4 {
+    padding-bottom:0em
+}
+h5 {
+font-style: italic;
+text-decoration: underline;
+}
+@media screen and (max-width:768px) {
+    aspect-ratio: grid-auto-columns: ;;
+}
